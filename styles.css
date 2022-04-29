@@ -1,0 +1,101 @@
+body {
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#banner {
+    background-image: url(https://source.unsplash.com/JW-T2BH5k5E/1600x900);
+    align-content: center;
+    display: grid;
+    padding: 2rem;
+    height: 100vh;
+    display: 100vh;
+}
+
+#banner button {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+
+.card button:hover {
+    background-color: white;
+    color: black;
+}
+
+.card button {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border: 3px solid black
+}
+
+.card button:hover {
+    background-color: black;
+    color: white
+}
+
+.nav-bar {
+    font-size: 20px;
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.cards {
+    display: grid;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+footer {
+    position: relative;
+    color: white;
+    background-color: #262626;
+    text-align: center;
+    padding: 1em;
+}
+
+
+/* footer:last-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+} */
